@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f4a7bb9c6a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div id="header">
@@ -36,7 +40,111 @@
             <img src="./Images/user.png" alt="user" />
           </div>
           <div class="about-col-2">
-            <h1>About Me</h1>
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus saepe aliquid velit. Numquam possimus tempora,
+              asperiores id quas natus inventore eligendi est totam, dolorem
+              vero quidem molestias ab error fugiat.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Designing web app interfaces
+                </li>
+                <li>
+                  <span>Web development</span> <br />
+                  Web development
+                </li>
+                <li>
+                  <span>App development</span> <br />
+                  Building android/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021-current</span> <br />
+                  Web developer at Trangla
+                </li>
+                <li>
+                  <span>20xx-20xx</span> <br />
+                  Software trainee
+                </li>
+                <li>
+                  <span>20xx-20xx</span> <br />
+                  Service desk- Analyst
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2015-2018</span> <br />
+                  BCA from PB Siddhartha college of arts and science
+                </li>
+                <li>
+                  <span>2013-2015</span> <br />
+                  Inter from Sri Medha V jr college
+                </li>
+                <li>
+                  <span>2013</span> <br />
+                  SSC from RBPS
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------services-------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+              minima quisquam ipsa non veniam quas est nam nemo voluptatibus?
+              Esse laudantium nesciunt praesentium labore fugit aut corrupti
+              voluptas fuga hic.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+              minima quisquam ipsa non veniam quas est nam nemo voluptatibus?
+              Esse laudantium nesciunt praesentium labore fugit aut corrupti
+              voluptas fuga hic.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+              minima quisquam ipsa non veniam quas est nam nemo voluptatibus?
+              Esse laudantium nesciunt praesentium labore fugit aut corrupti
+              voluptas fuga hic.
+            </p>
+            <a href="#">Learn More</a>
           </div>
         </div>
       </div>
