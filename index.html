@@ -14,20 +14,23 @@
     <div id="header">
       <div class="container">
         <nav>
-          <img src="./Images/logo.png" alt="logo" class="logo" />
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+          <img src="./Images/name.png" alt="logo" class="logo" />
+          <ul id="side-menu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
           </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
         </nav>
+
         <div class="header-text">
           <p>Frontend Web Developer</p>
           <h1>
-            Hi, I'm <span>Kalyan Panchal</span><br />
-            From India
+            Hi, I'm <span>Kalyan</span><br />
+            Panchal From India
           </h1>
         </div>
       </div>
@@ -37,15 +40,15 @@
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="./Images/user.png" alt="user" />
+            <img src="./Images/output_image.png" alt="user" />
           </div>
           <div class="about-col-2">
             <h1 class="subtitle">About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus saepe aliquid velit. Numquam possimus tempora,
-              asperiores id quas natus inventore eligendi est totam, dolorem
-              vero quidem molestias ab error fugiat.
+              As a skilled frontend web developer, I am dedicated to turning
+              ideas into innovative web applications. Explore my latest projects
+              and services, showcasing my expertise in React.js and web
+              development.
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="openTab('skills')">
@@ -59,32 +62,41 @@
             <div class="tab-contents active-tab" id="skills">
               <ul>
                 <li>
-                  <span>UI/UX</span> <br />
-                  Designing web app interfaces
+                  <span>Languages</span> <br />
+                  HTML5, CSS3, JavaScript (ES6+) and TypeScript
                 </li>
                 <li>
-                  <span>Web development</span> <br />
-                  Web development
+                  <span>Frameworks & Libraries</span> <br />
+                  React.js, React Router, Redux along with popular UI frameworks
+                  such as Bootstrap, TailwindCSS, and Material-UI
                 </li>
                 <li>
-                  <span>App development</span> <br />
-                  Building android/iOS apps
+                  <span>Tools</span> <br />
+                  Git, Webpack, Babel, ESLint, Visual Studio Code, NPM, and Yarn
+                </li>
+                <li>
+                  <span>API Integration</span> <br />
+                  RESTful APIs and JSON
+                </li>
+                <li>
+                  <span>Version Control</span> <br />
+                  Git, GitHub and Bitbucket
                 </li>
               </ul>
             </div>
             <div class="tab-contents" id="experience">
               <ul>
                 <li>
-                  <span>2021-current</span> <br />
-                  Web developer at Trangla
+                  <span>Jan 2024 - current</span> <br />
+                  Frontend Web developer at Trangla
                 </li>
                 <li>
-                  <span>20xx-20xx</span> <br />
-                  Software trainee
+                  <span>May 2023 - Dec 2023</span> <br />
+                  Software trainee at Turpy Mobiles
                 </li>
                 <li>
-                  <span>20xx-20xx</span> <br />
-                  Service desk- Analyst
+                  <span>Apr 2021 - May 2023</span> <br />
+                  Service desk- Analyst at HCL Tech Ltd.
                 </li>
               </ul>
             </div>
@@ -92,15 +104,15 @@
               <ul>
                 <li>
                   <span>2015-2018</span> <br />
-                  BCA from PB Siddhartha college of arts and science
+                  Graduation(BCA) from PB Siddhartha College Of Arts & Science
                 </li>
                 <li>
                   <span>2013-2015</span> <br />
-                  Inter from Sri Medha V jr college
+                  Intermediate(MEC) from Sri Medha V Jr College
                 </li>
                 <li>
                   <span>2013</span><br />
-                  SSC from RBPS
+                  SSC from Ravindra Barathi Public School
                 </li>
               </ul>
             </div>
@@ -117,10 +129,13 @@
             <i class="fa-solid fa-code"></i>
             <h2>Web Design</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-              minima quisquam ipsa non veniam quas est nam nemo voluptatibus?
-              Esse laudantium nesciunt praesentium labore fugit aut corrupti
-              voluptas fuga hic.
+              Elevate your online presence with our expert web design services.
+              We specialize in crafting visually stunning and user-friendly
+              websites tailored to your brand's unique identity and goals. From
+              sleek and modern layouts to intuitive navigation, we prioritize
+              both aesthetics and functionality to ensure a memorable and
+              engaging user experience. Let us bring your vision to life and
+              help you stand out in the digital landscape.
             </p>
             <a href="#">Learn More</a>
           </div>
@@ -128,10 +143,14 @@
             <i class="fa-solid fa-crop-simple"></i>
             <h2>UI/UX Design</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-              minima quisquam ipsa non veniam quas est nam nemo voluptatibus?
-              Esse laudantium nesciunt praesentium labore fugit aut corrupti
-              voluptas fuga hic.
+              Transform user experiences with our UI/UX design expertise. We
+              specialize in creating intuitive interfaces that seamlessly guide
+              users through digital interactions. From wireframing to
+              prototyping, we focus on understanding user needs and behaviors to
+              craft engaging and user-centric designs. Our goal is to enhance
+              usability, accessibility, and overall satisfaction. Let's
+              collaborate to elevate your user experience and drive meaningful
+              engagement.
             </p>
             <a href="#">Learn More</a>
           </div>
@@ -139,10 +158,14 @@
             <i class="fa-brands fa-app-store"></i>
             <h2>App Design</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-              minima quisquam ipsa non veniam quas est nam nemo voluptatibus?
-              Esse laudantium nesciunt praesentium labore fugit aut corrupti
-              voluptas fuga hic.
+              Elevate your app's appeal and functionality with our expert app
+              design services. We specialize in creating intuitive, visually
+              appealing interfaces that enhance user engagement and
+              satisfaction. From concept to final product, we prioritize user
+              experience, ensuring seamless navigation and interaction across
+              platforms. Whether you're launching a new app or redesigning an
+              existing one. Let's collaborate to bring your app vision to life
+              and make a lasting impact in the digital realm.
             </p>
             <a href="#">Learn More</a>
           </div>
@@ -157,19 +180,24 @@
           <div class="work">
             <img src="./Images/work-1.png" alt="work-1" />
             <div class="layer">
-              <h3>Social Media App</h3>
-              <p>The app connects you talented people around the world.</p>
-              <a href="#">
+              <h3>QuickChat App</h3>
+              <p>
+                Realtime chatting app which connects you talented people around
+                the world.
+              </p>
+              <p>Tech Stack: ReactJS, Daisy UI, Firebase.</p>
+              <a href="https://react-quick-chat.vercel.app/" target="_blank">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
           </div>
           <div class="work">
-            <img src="./Images/work-2.png" alt="work-2" />
+            <img src="./Images/GitHub-Mark.png" alt="work-2" />
             <div class="layer">
-              <h3>Music App</h3>
-              <p>The app connects you talented people around the world.</p>
-              <a href="#">
+              <h3>GitHub's Repo Viewer</h3>
+              <p>Find the repos of anyone based on github username</p>
+              <p>Tech Stack: ReactJS, Tailwind Css, Material Tailwind.</p>
+              <a href="https://git-hub-repo-viewer.vercel.app/" target="_blank">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
@@ -177,9 +205,16 @@
           <div class="work">
             <img src="./Images/work-3.png" alt="work-3" />
             <div class="layer">
-              <h3>Online shopping App</h3>
-              <p>The app connects you talented people around the world.</p>
-              <a href="#">
+              <h3>Dashbaord App</h3>
+              <p>
+                Invoices of customers dashboard having the create, edit and
+                delete functionalities.
+              </p>
+              <p>Tech Stack: NextJS, Postgresql</p>
+              <a
+                href="https://nextjs-dashboard-vert-beta.vercel.app/"
+                target="_blank"
+              >
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
@@ -188,7 +223,7 @@
         <a href="#" class="btn">See More</a>
       </div>
     </div>
-    <!-- ---------------Projects-------------------- -->
+    <!-- ---------------Contact-------------------- -->
     <div id="contact">
       <div class="container">
         <div class="row">
@@ -199,7 +234,7 @@
                 <i class="fa-sharp fa-solid fa-paper-plane"></i
                 >kalyanbabu1010@gmail.com
               </p>
-              <p><i class="fa-solid fa-square-phone"></i>9705464783</p>
+              <p><i class="fa-solid fa-square-phone"></i>+91 9705464783</p>
               <div class="social-icons">
                 <a href="#"> <i class="fa-brands fa-facebook"></i></a>
                 <a href="#"> <i class="fa-brands fa-instagram"></i></a>
@@ -209,9 +244,7 @@
                 </a>
               </div>
             </div>
-            <a href="./Images/my-cv.pdf" download class="btn btn-2"
-              >Download CV</a
-            >
+            <a href="" download class="btn btn-2">Download CV</a>
           </div>
           <div class="contact-right">
             <form>
@@ -234,7 +267,7 @@
       </div>
       <div class="copyright">
         <p>
-          Copyright © Kalyan Panchal. Made with
+          Copyright © <span>Kalyan</span> Panchal. Made with
           <i class="fa-solid fa-heart"></i>
         </p>
       </div>
